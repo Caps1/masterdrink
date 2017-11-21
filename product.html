@@ -7,7 +7,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>The Project | Page Login</title>
+    <title>The Project | Shop Product</title>
     <meta name="description" content="The Project a Bootstrap-based, Responsive HTML5 Template">
     <meta name="author" content="htmlcoder.me">
 
@@ -362,7 +362,7 @@
                         </li>
                         <!-- mega-menu end -->
                         <!-- mega-menu start -->
-                        <li class="nav-item dropdown active mega-menu mega-menu--wide">
+                        <li class="nav-item dropdown  mega-menu mega-menu--wide">
                           <a href="#" class="nav-link dropdown-toggle" id="second-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
                           <ul class="dropdown-menu" aria-labelledby="second-dropdown">
                             <li>
@@ -394,7 +394,7 @@
                                         <li ><a href="page-contact.html"><i class="fa fa-angle-right"></i>Contact 1</a></li>
                                         <li ><a href="page-contact-2.html"><i class="fa fa-angle-right"></i>Contact 2</a></li>
                                         <li ><a href="page-contact-3.html"><i class="fa fa-angle-right"></i>Contact 3</a></li>
-                                        <li class="active"><a href="page-login.html"><i class="fa fa-angle-right"></i>Login 1</a></li>
+                                        <li ><a href="page-login.html"><i class="fa fa-angle-right"></i>Login 1</a></li>
                                         <li ><a href="page-login-2.html"><i class="fa fa-angle-right"></i>Login 2 - Fullsreen</a></li>
                                         <li ><a href="registrate.html"><i class="fa fa-angle-right"></i>Sign Up 1</a></li>
                                         <li ><a href="page-signup-2.html"><i class="fa fa-angle-right"></i>Sign Up 2 - Fullsreen</a></li>
@@ -623,7 +623,7 @@
                             <li ><a href="portfolio-item-3.html">Single Item 3</a></li>
                           </ul>
                         </li>
-                        <li class="nav-item dropdown ">
+                        <li class="nav-item dropdown active">
                           <a href="index-shop.html" class="nav-link dropdown-toggle" id="sixth-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
                           <ul class="dropdown-menu" aria-labelledby="sixth-dropdown">
                             <li ><a href="index-shop.html">Shop Home 1</a></li>
@@ -633,7 +633,7 @@
                             <li ><a href="shop-listing-2col.html">Grid - 2 Columns</a></li>
                             <li ><a href="shop-listing-sidebar.html">Grid - With Sidebar</a></li>
                             <li ><a href="shop-listing-list.html">List</a></li>
-                            <li ><a href="shop-product.html">Product Page</a></li>
+                            <li class="active"><a href="shop-product.html">Product Page</a></li>
                             <li ><a href="shop-product-2.html">Product Page 2 <span class="badge">v1.3</span></a></li>
                             <li ><a href="shop-cart.html">Shopping Cart</a></li>
                             <li ><a href="shop-checkout.html">Checkout Page - Step 1</a></li>
@@ -757,7 +757,7 @@
         <div class="container">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><i class="fa fa-home pr-2"></i><a class="link-dark" href="index.html">Home</a></li>
-            <li class="breadcrumb-item active">Page Login</li>
+            <li class="breadcrumb-item active">Shop Product</li>
           </ol>
         </div>
       </div>
@@ -765,59 +765,406 @@
 
       <!-- main-container start -->
       <!-- ================ -->
-      <div class="main-container dark-translucent-bg" style="background-image:url('images/background-img-6.jpg');">
+      <section class="main-container">
+
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-auto">
-              <!-- main start -->
+          <div class="row">
+
+            <!-- main start -->
+            <!-- ================ -->
+            <div class="main col-12">
+
+              <!-- page-title start -->
               <!-- ================ -->
-              <div class="main object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-                <div class="form-block p-30 light-gray-bg border-clear">
-                  <h2 class="title">Login</h2>
-                  <form class="form-horizontal">
-                    <div class="form-group has-feedback row">
-                      <label for="inputUserName" class="col-md-3 text-md-right control-label col-form-label">User Name</label>
-                      <div class="col-md-8">
-                        <input type="text" class="form-control" id="inputUserName" placeholder="User Name" required>
-                        <i class="fa fa-user form-control-feedback pr-4"></i>
+              <h1 class="page-title">Shop Product</h1>
+              <div class="separator-2"></div>
+              <!-- page-title end -->
+
+              <div class="row">
+                <div class="col-lg-4">
+                  <!-- pills start -->
+                  <!-- ================ -->
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-pills">
+                    <li class="nav-item"><a class="nav-link active" href="#pill-1" data-toggle="tab" title="images"><i class="fa fa-camera pr-1"></i> Photo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pill-2" data-toggle="tab" title="video"><i class="fa fa-video-camera pr-1"></i> Video</a></li>
+                  </ul>
+                  <!-- Tab panes -->
+                  <div class="tab-content clear-style">
+                    <div class="tab-pane active" id="pill-1">
+                      <div class="owl-carousel content-slider-with-large-controls">
+                        <div class="overlay-container overlay-visible">
+                          <img src="images/product-1.jpg" alt="">
+                          <a href="images/product-1.jpg" class="owl-carousel--popup-img overlay-link" title="image title"><i class="icon-plus-1"></i></a>
+                        </div>
+                        <div class="overlay-container overlay-visible">
+                          <img src="images/product-1-2.jpg" alt="">
+                          <a href="images/product-1-2.jpg" class="owl-carousel--popup-img overlay-link" title="image title"><i class="icon-plus-1"></i></a>
+                        </div>
                       </div>
                     </div>
-                    <div class="form-group has-feedback row">
-                      <label for="inputPassword" class="col-md-3 text-md-right control-label col-form-label">Password</label>
-                      <div class="col-md-8">
-                        <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
-                        <i class="fa fa-lock form-control-feedback pr-4"></i>
+                    <div class="tab-pane" id="pill-2">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="//player.vimeo.com/video/29198414?byline=0&amp;portrait=0"></iframe>
+                        <p><a href="http://vimeo.com/29198414">Introducing Vimeo Music Store</a> from <a href="http://vimeo.com/staff">Vimeo Staff</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
                       </div>
                     </div>
-                    <div class="form-group row">
-                      <div class="ml-md-auto col-md-9">
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox" required> Remember me.
-                          </label>
-                        </div>                      
-                        <button type="submit" class="btn btn-group btn-default btn-animated">Log In <i class="fa fa-user"></i></button>
-                        <ul class="space-top">
-                          <li><a href="#">Forgot your password?</a></li>
-                        </ul>
-                        <span class="text-center text-muted">Login with</span>
-                        <ul class="social-links colored circle clearfix">
-                          <li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-                          <li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-                          <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </form>
+                  </div>
+                  <!-- pills end -->
                 </div>
-                <p class="text-center space-top">Don't have an account yet? <a href="registrate.html">Sing up</a> now.</p>
+                <div class="col-lg-8 pv-30">
+                  <h2 class="mt-4">Description</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem debitis enim facilis porro quia in voluptates praesentium, cupiditate, dolorum. Facilis minus, quidem! Id perspiciatis labore praesentium voluptatibus assumenda odio, magni.</p>
+                  <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sint beatae delectus obcaecati eveniet nulla voluptate odio est laborum veniam? Natus nemo provident, voluptate molestias sint, nam dolor blanditiis minus!</p>
+                  <hr class="mb-10">
+                  <div class="clearfix mb-20">
+                    <span>
+                      <i class="fa fa-star text-default"></i>
+                      <i class="fa fa-star text-default"></i>
+                      <i class="fa fa-star text-default"></i>
+                      <i class="fa fa-star text-default"></i>
+                      <i class="fa fa-star"></i>
+                    </span>
+                    <a href="#" class="wishlist"><i class="fa fa-heart-o pl-10 pr-1"></i>Wishlist</a>
+                    <ul class="pl-20 pull-right social-links circle small clearfix margin-clear animated-effect-1">
+                      <li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                      <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+                      <li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                    </ul>
+                  </div>
+                    <form class="clearfix row grid-space-10">
+                        <div class="form-group col-lg-4">
+                          <label>Quantity</label>
+                          <input type="text" class="form-control" value="1">
+                        </div>
+                        <div class="form-group col-lg-4">
+                          <label>Color</label>
+                          <select class="form-control">
+                            <option>Red</option>
+                            <option>White</option>
+                            <option>Black</option>
+                            <option>Blue</option>
+                            <option>Orange</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-lg-4">
+                          <label>Size</label>
+                          <select class="form-control">
+                            <option>5.3"</option>
+                            <option>5.7"</option>
+                          </select>
+                        </div>
+                    </form>
+                  <div class="light-gray-bg p-20 bordered clearfix">
+                    <span class="product price"><i class="icon-tag pr-10"></i>$99.00</span>
+                    <div class="product elements-list pull-right clearfix">
+                      <input type="submit" value="Add to Cart" class="margin-clear btn btn-default">
+                    </div>
+                  </div>
+                </div>
               </div>
-              <!-- main end -->
+            </div>
+            <!-- main end -->
+
+          </div>
+        </div>
+      </section>
+      <!-- main-container end -->
+
+      <!-- section start -->
+      <!-- ================ -->
+      <section class="pv-30 light-gray-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs style-4" role="tablist">
+                <li class="nav-item"><a class="nav-link active" href="#h2tab2" role="tab" data-toggle="tab"><i class="fa fa-files-o pr-1"></i>Specifications</a></li>
+                <li class="nav-item"><a class="nav-link" href="#h2tab3" role="tab" data-toggle="tab"><i class="fa fa-star pr-1"></i>(3) Reviews</a></li>
+              </ul>
+              <!-- Tab panes -->
+              <div class="tab-content padding-top-clear padding-bottom-clear">
+                <div class="tab-pane active" id="h2tab2">
+                  <h4 class="space-top">Specifications</h4>
+                  <hr>
+                  <dl class="row">
+                    <dt class="col-sm-3 text-sm-right">Consectetur</dt>
+                    <dd class="col-sm-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</dd>
+                    <dt class="col-sm-3 text-sm-right">Culla</dt>
+                    <dd class="col-sm-9">Adipisci autem illo hic itaque nulla velit quod laboriosam ipsum in illum!</dd>
+                    <dt class="col-sm-3 text-sm-right">Quas</dt>
+                    <dd class="col-sm-9">Velit mollitia vel nemo, repudiandae quas nisi consectetur maiores beatae.</dd>
+                    <dt class="col-sm-3 text-sm-right">Sapiente</dt>
+                    <dd class="col-sm-9">Dolor, architecto, accusamus. Explicabo, culpa hic sapiente amet libero, recusandae laudantium consequatur velit possimus ratione quo. Ipsum maxime officia quasi quos magni!</dd>
+                    <dt class="col-sm-3 text-sm-right">Dignissimos</dt>
+                    <dd class="col-sm-9">Odio cum deleniti mollitia, quisquam dignissimos voluptatem, unde rem alias.</dd>
+                    <dt class="col-sm-3 text-sm-right">Adipisicing</dt>
+                    <dd class="col-sm-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora rerum veritatis nam blanditiis.</dd>
+                    <dt class="col-sm-3 text-sm-right">Werspiciatis</dt>
+                    <dd class="col-sm-9">Rem nostrum sit magnam debitis quidem perspiciatis fuga fugit.</dd>
+                  </dl>
+                  <hr>
+                </div>
+                <div class="tab-pane" id="h2tab3">
+                  <!-- comments start -->
+                  <div class="comments margin-clear space-top">
+                    <!-- comment start -->
+                    <div class="comment clearfix">
+                      <div class="comment-avatar">
+                        <img class="rounded-circle" src="images/avatar.jpg" alt="avatar">
+                      </div>
+                      <header>
+                        <h3>Amazing!</h3>
+                        <div class="comment-meta"> <i class="fa fa-star text-default"></i> <i class="fa fa-star text-default"></i> <i class="fa fa-star text-default"></i> <i class="fa fa-star text-default"></i> <i class="fa fa-star"></i> | Today, 12:31</div>
+                      </header>
+                      <div class="comment-content">
+                        <div class="comment-body clearfix">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                          <a href="blog-post.html" class="btn-sm-link link-dark pull-right"><i class="fa fa-reply"></i> Reply</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- comment end -->
+
+                    <!-- comment start -->
+                    <div class="comment clearfix">
+                      <div class="comment-avatar">
+                        <img class="rounded-circle" src="images/avatar.jpg" alt="avatar">
+                      </div>
+                      <header>
+                        <h3>Really Nice!</h3>
+                        <div class="comment-meta"> <i class="fa fa-star text-default"></i> <i class="fa fa-star text-default"></i> <i class="fa fa-star text-default"></i> <i class="fa fa-star text-default"></i> <i class="fa fa-star"></i> | Today, 10:31</div>
+                      </header>
+                      <div class="comment-content">
+                        <div class="comment-body clearfix">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                          <a href="blog-post.html" class="btn-sm-link link-dark pull-right"><i class="fa fa-reply"></i> Reply</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- comment end -->
+
+                    <!-- comment start -->
+                    <div class="comment clearfix">
+                      <div class="comment-avatar">
+                        <img class="rounded-circle" src="images/avatar.jpg" alt="avatar">
+                      </div>
+                      <header>
+                        <h3>Worth to Buy!</h3>
+                        <div class="comment-meta"> <i class="fa fa-star text-default"></i> <i class="fa fa-star text-default"></i> <i class="fa fa-star text-default"></i> <i class="fa fa-star text-default"></i> <i class="fa fa-star"></i> | Today, 09:31</div>
+                      </header>
+                      <div class="comment-content">
+                        <div class="comment-body clearfix">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                          <a href="blog-post.html" class="btn-sm-link link-dark pull-right"><i class="fa fa-reply"></i> Reply</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- comment end -->
+                  </div>
+                  <!-- comments end -->
+
+                  <!-- comments form start -->
+                  <div class="comments-form">
+                    <h2 class="title">Add your Review</h2>
+                    <form id="comment-form">
+                      <div class="form-group has-feedback">
+                        <label for="name4">Name</label>
+                        <input type="text" class="form-control" id="name4" placeholder="" name="name4" required>
+                        <i class="fa fa-user form-control-feedback"></i>
+                      </div>
+                      <div class="form-group has-feedback">
+                        <label for="subject4">Subject</label>
+                        <input type="text" class="form-control" id="subject4" placeholder="" name="subject4" required>
+                        <i class="fa fa-pencil form-control-feedback"></i>
+                      </div>
+                      <div class="form-group">
+                        <label>Rating</label>
+                        <select class="form-control" id="review">
+                          <option value="five">5</option>
+                          <option value="four">4</option>
+                          <option value="three">3</option>
+                          <option value="two">2</option>
+                          <option value="one">1</option>
+                        </select>
+                      </div>
+                      <div class="form-group has-feedback">
+                        <label for="message4">Message</label>
+                        <textarea class="form-control" rows="8" id="message4" placeholder="" name="message4" required></textarea>
+                        <i class="fa fa-envelope-o form-control-feedback"></i>
+                      </div>
+                      <input type="submit" value="Submit" class="btn btn-default">
+                    </form>
+                  </div>
+                  <!-- comments form end -->
+                </div>
+              </div>
+            </div>
+
+            <!-- sidebar start -->
+            <!-- ================ -->
+            <aside class="col-lg-4 col-xl-3 ml-xl-auto">
+              <div class="sidebar">
+                <div class="block clearfix">
+                  <h3 class="title">Related Products</h3>
+                  <div class="separator-2"></div>
+                  <div class="media margin-clear">
+                    <div class="d-flex pr-2">
+                      <div class="overlay-container">
+                        <img class="media-object" src="images/product-5.jpg" alt="blog-thumb">
+                        <a href="shop-product.html" class="overlay-link small"><i class="fa fa-link"></i></a>
+                      </div>
+                    </div>
+                    <div class="media-body">
+                      <h6 class="media-heading"><a href="shop-product.html">Lorem ipsum dolor sit amet</a></h6>
+                      <p class="margin-clear">
+                        <i class="fa fa-star text-default"></i>
+                        <i class="fa fa-star text-default"></i>
+                        <i class="fa fa-star text-default"></i>
+                        <i class="fa fa-star text-default"></i>
+                        <i class="fa fa-star text-default"></i>
+                      </p>
+                      <p class="price">$99.00</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="media margin-clear">
+                    <div class="d-flex pr-2">
+                      <div class="overlay-container">
+                        <img class="media-object" src="images/product-6.jpg" alt="blog-thumb">
+                        <a href="shop-product.html" class="overlay-link small"><i class="fa fa-link"></i></a>
+                      </div>
+                    </div>
+                    <div class="media-body">
+                      <h6 class="media-heading"><a href="shop-product.html">Eum repudiandae ipsam</a></h6>
+                      <p class="margin-clear">
+                        <i class="fa fa-star text-default"></i>
+                        <i class="fa fa-star text-default"></i>
+                        <i class="fa fa-star text-default"></i>
+                        <i class="fa fa-star text-default"></i>
+                        <i class="fa fa-star"></i>
+                      </p>
+                      <p class="price">$299.00</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="media margin-clear">
+                    <div class="d-flex pr-2">
+                      <div class="overlay-container">
+                        <img class="media-object" src="images/product-7.jpg" alt="blog-thumb">
+                        <a href="shop-product.html" class="overlay-link small"><i class="fa fa-link"></i></a>
+                      </div>
+                    </div>
+                    <div class="media-body">
+                      <h6 class="media-heading"><a href="shop-product.html">Quia aperiam velit fuga</a></h6>
+                      <p class="margin-clear">
+                        <i class="fa fa-star text-default"></i>
+                        <i class="fa fa-star text-default"></i>
+                        <i class="fa fa-star text-default"></i>
+                        <i class="fa fa-star text-default"></i>
+                        <i class="fa fa-star"></i>
+                      </p>
+                      <p class="price">$9.99</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="media margin-clear">
+                    <div class="d-flex pr-2">
+                      <div class="overlay-container">
+                        <img class="media-object" src="images/product-8.jpg" alt="blog-thumb">
+                        <a href="shop-product.html" class="overlay-link small"><i class="fa fa-link"></i></a>
+                      </div>
+                    </div>
+                    <div class="media-body">
+                      <h6 class="media-heading"><a href="shop-product.html">Fugit non natus officiis</a></h6>
+                      <p class="margin-clear">
+                        <i class="fa fa-star text-default"></i>
+                        <i class="fa fa-star text-default"></i>
+                        <i class="fa fa-star text-default"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                      </p>
+                      <p class="price">$399.00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </aside>
+            <!-- sidebar end -->
+
+          </div>
+        </div>
+      </section>
+      <!-- section end -->
+
+      <!-- section start -->
+      <!-- ================ -->
+      <section class="section dark-translucent-bg pv-40" style="background-image:url('images/shop-banner.jpg');background-position: 50% 32%;">
+        <div class="container">
+          <div class="row grid-space-10">
+            <div class="col-lg-3 col-md-6">
+              <div class="pv-30 ph-20 feature-box text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                <span class="icon default-bg"><i class="fa fa-diamond"></i></span>
+                <h3>Premium &amp; Guaranteed Quality</h3>
+                <div class="separator clearfix"></div>
+                <p>Voluptatem ad provident non repudiandae beatae cupiditate.</p>
+                <a href="page-services.html" class="link-dark">Read More<i class="pl-1 fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="pv-30 ph-20 feature-box text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="150">
+                <span class="icon default-bg"><i class="icon-lock"></i></span>
+                <h3>Secure &amp; Safe Payment</h3>
+                <div class="separator clearfix"></div>
+                <p>Iure sequi unde hic. Sapiente quaerat sequi inventore.</p>
+                <a href="page-services.html" class="link-dark">Read More<i class="pl-1 fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+            <div class="clearfix visible-sm"></div>
+            <div class="col-lg-3 col-md-6">
+              <div class="pv-30 ph-20 feature-box text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
+                <span class="icon default-bg"><i class="icon-globe"></i></span>
+                <h3 class="pl-10 pr-10">Free &amp; Fast Shipping</h3>
+                <div class="separator clearfix"></div>
+                <p>Inventore dolores aut laboriosam cum consequuntur.</p>
+                <a href="page-services.html" class="link-dark">Read More<i class="pl-1 fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="pv-30 ph-20 feature-box text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="250">
+                <span class="icon default-bg"><i class="icon-thumbs-up"></i></span>
+                <h3>24/7 Customer Support</h3>
+                <div class="separator clearfix"></div>
+                <p>Inventore dolores aut laboriosam cum consequuntur.</p>
+                <a href="page-services.html" class="link-dark">Read More<i class="pl-1 fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="call-to-action text-center">
+                <div class="row justify-content-lg-center">
+                  <div class="col-lg-8">
+                    <h2 class="title"><strong>Subscribe</strong> To Our Newsletter</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus error pariatur deserunt laudantium nam, mollitia quas nihil inventore, quibusdam?</p>
+                    <div class="separator"></div>
+                    <form class="form-inline margin-clear d-flex justify-content-center">
+                      <div class="form-group has-feedback">
+                        <label class="sr-only" for="subscribe3">Email address</label>
+                        <input type="email" class="form-control form-control-lg" id="subscribe3" placeholder="Enter email" name="subscribe3" required="">
+                        <i class="fa fa-envelope form-control-feedback"></i>
+                      </div>
+                      <button type="submit" class="btn btn-lg btn-gray-transparent btn-animated ml-2">Submit <i class="fa fa-send"></i></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- main-container end -->
+      </section>
+      <!-- section end -->
 
       <!-- footer top start -->
       <!-- ================ -->
@@ -841,7 +1188,6 @@
         </div>
       </div>
       <!-- footer top end -->
-
       <!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
       <!-- ================ -->
       <footer id="footer" class="clearfix ">
@@ -1040,6 +1386,9 @@
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     <!-- Modernizr javascript -->
     <script type="text/javascript" src="plugins/modernizr.js"></script>
+    <!-- Isotope javascript -->
+    <script type="text/javascript" src="plugins/isotope/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
     <!-- Magnific Popup javascript -->
     <script type="text/javascript" src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
     <!-- Appear javascript -->
